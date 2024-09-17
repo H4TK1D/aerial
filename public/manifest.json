@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "aerial",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "author": "h4t_k1d",
     "description": "a fork of the alpine startpage made by refact0r",
     "chrome_url_overrides": {
