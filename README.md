@@ -69,6 +69,6 @@ npm: >=8.0.0
 if you want to configure aerial you should:
 
 1. click on the "open config" text in the lower right corner (it appears once you hover over it)
-2. Edit the JSON panel that opens up to your hearts content
+2. Edit the JSON panel that opens up to your hearts content (will be changed in the future)
 3. Once done, just close it and it should be saved
 
