@@ -1,10 +1,10 @@
 import './app.css'
+import App from './App.svelte'
 import { writable } from 'svelte/store'
-import { twelveHour } from './lib/js/utils'
 
 const defaultConfig = {
     banner: 1,
-    twelveHour: false,
+    twelveHour: true,
     weather: {
         apiKey: '',
         lat: 47.6,
