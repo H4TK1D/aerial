@@ -1,19 +1,19 @@
-# alpine
+# aerial
 
 A clean browser startpage with weather and stock market widgets.
 
 ## features
 
-- time and date
+- time and date (choose between 12 and 24 hour format)
 - current weather and 12hr forecast using [OpenWeatherMap](https://openweathermap.org/api)
 - stock market tracker using [Alpaca](https://alpaca.markets) or [FinancialModelingPrep](https://site.financialmodelingprep.com/)
 - 16 customizable links
 
 ![image](https://user-images.githubusercontent.com/34758569/218351845-fad3989f-3662-4f93-b63b-8955e405596a.png)
 
-my firefox css: <https://github.com/refact0r/sidefox>
+refact0r's firefox userstyle css (recommended): <https://github.com/refact0r/sidefox>
 
-matching firefox color theme: [firefox color](https://color.firefox.com/?theme=XQAAAAJnAgAAAAAAAABBqYhm849SCicxcUF-LXcGHf3p79EhVPVQizvzWDHermX3x4Ndce8GU3lAYj6VjlT7trCv4ZbKin9T0uvI5Tl940N20U1li8Ep9D7QNMncKwLWuNp6w3qXhxdSTAv63FusZrSR7Z7r8yI6xNb0fHpi6Lpoy4BNAvZOCmrP64MkQKHQmEm2SdoKO78G3vd5Dc6vPTlMKK9nJ7sHvSJc2GLK-7DThOGDTNXPssZG-syuCqoHAse4AwXl0tqz9kWLF-rNf-DpuxHCHiZNjTONkPKhWSoAbCMkiPef7wAsSDi43MDDhpuVQkUXpo3pztPiMr_QSaHK1ui7jbr0XUA19zHcV_sXn0qBiXbavI9mzghud2EsEjDD__gvIDc)
+matching firefox color theme (will update to a signed theme soon): [firefox color](https://color.firefox.com/?theme=XQAAAAJnAgAAAAAAAABBqYhm849SCicxcUF-LXcGHf3p79EhVPVQizvzWDHermX3x4Ndce8GU3lAYj6VjlT7trCv4ZbKin9T0uvI5Tl940N20U1li8Ep9D7QNMncKwLWuNp6w3qXhxdSTAv63FusZrSR7Z7r8yI6xNb0fHpi6Lpoy4BNAvZOCmrP64MkQKHQmEm2SdoKO78G3vd5Dc6vPTlMKK9nJ7sHvSJc2GLK-7DThOGDTNXPssZG-syuCqoHAse4AwXl0tqz9kWLF-rNf-DpuxHCHiZNjTONkPKhWSoAbCMkiPef7wAsSDi43MDDhpuVQkUXpo3pztPiMr_QSaHK1ui7jbr0XUA19zHcV_sXn0qBiXbavI9mzghud2EsEjDD__gvIDc)
 
 ## usage
 
@@ -63,3 +63,12 @@ npm: >=8.0.0
 1. run `npm install`
 2. run `npm run build`
 3. the generated code should appear in `/dist`
+
+## config
+
+if you want to configure aerial you should:
+
+1. click on the "open config" text in the lower right corner (it appears once you hover over it)
+2. Edit the JSON panel that opens up to your hearts content
+3. Once done, just close it and it should be saved
+
