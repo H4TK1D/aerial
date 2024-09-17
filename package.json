@@ -1,6 +1,6 @@
 {
-    "name": "alpine",
-    "version": "1.0.2",
+    "name": "aerial",
+    "version": "1.0.0",
     "type": "module",
     "scripts": {
         "dev": "vite",

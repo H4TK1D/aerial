@@ -1,9 +1,9 @@
 {
     "manifest_version": 2,
-    "name": "alpine",
-    "version": "1.0.2",
-    "author": "refact0r",
-    "description": "a startpage",
+    "name": "aerial",
+    "version": "1.0.0",
+    "author": "h4t_k1d",
+    "description": "a fork of the alpine startpage made by refact0r",
     "chrome_url_overrides": {
         "newtab": "index.html"
     },
@@ -12,7 +12,7 @@
     },
     "browser_specific_settings": {
         "gecko": {
-            "id": "alpine-startpage@refact0r"
+            "id": "aerial-startpage@h4t_k1d"
         }
     }
 }
