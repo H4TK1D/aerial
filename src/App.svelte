@@ -53,7 +53,7 @@
     $config.banner = nextBanner
 
     let d = new Date()
-    $: hours = twelveHour(d.getHours())
+    $: hours = $config.twelveHour ? twelveHour(d.getHours()) : d.getHours()
     $: min = twoDigit(d.getMinutes())
     $: sec = twoDigit(d.getSeconds())
     $: time = `${hours}:${min}`
