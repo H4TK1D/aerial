@@ -51,6 +51,13 @@ matching firefox color theme (will update to a signed theme soon): [firefox colo
 6. paste your api keys into the corresponding spots on the config, make sure to change `stocks.source` to `fmp` if using FinancialModelingPrep
 7. you can also edit settings like weather location, links, and stocks
 
+## upcoming features
+- Config Interface (More user friendly alternative to JSON)
+- User banner editing
+
+
+
+
 ## build from source
 
 environment requirements:
